@@ -46,13 +46,28 @@ sudo nano /etc/vsftpd.conf
 // Check the following:
 
 [
-# Allow anonymous FTP? (Disabled by default). 
-anonymous_enable=NO 
-# 
-# Uncomment this to allow local users to log in. 
+listen=NO
+listen_ipv6=YES
+anonymous_enable=NO
 local_enable=YES
 write_enable=YES
+local_umask=022
+dirmessage_enable=YES
+xferlog_enable=YES
+connect_from_port_20=YES
+xferlog_std_format=YES
+ascii_upload_enable=YES
+ascii_download_enable=YES
 chroot_local_user=YES
+pam_service_name=vsftpd
+
+add the following:
+
+allow_writeable_chroot=YES
+pasv_enable=YES
+pasv_min_port=1024
+pasv_max_port=1048
+write_enable=YES
 ]
 
 ```
