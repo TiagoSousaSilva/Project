@@ -1,6 +1,6 @@
 Credit - https://www.hostinger.com/tutorials/how-to-setup-ftp-server-on-ubuntu-vps/
 
-FTPServer Config
+# FTPServer Config
 
 Ubuntu - t2.micro - 30Gb
 
