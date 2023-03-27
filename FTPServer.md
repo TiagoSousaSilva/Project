@@ -2,7 +2,7 @@ Credit - https://www.hostinger.com/tutorials/how-to-setup-ftp-server-on-ubuntu-v
 
 # FTPServer Config
 
-Ubuntu - t2.micro - 30Gb
+Ubuntu - t2.small - 30Gb
 
 // Start
 
