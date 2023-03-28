@@ -12,9 +12,12 @@ sudo nano /etc/chrony/chrony.conf
 
 // add the following:
 
+pool 0.pt.pool.ntp.org iburst
 allow 192.168.1.0/24 // example
 
+//And Remove All The Pools
 
+timedatectl set-ntp true
 sudo systemctl restart chrony
 
 ```
@@ -34,9 +37,15 @@ sudo nano /etc/chrony/chrony.conf
 //Add The Following To The End Of The File:
 
 server 192.168.1.1 // Server IP
+server master iburst
 
+//And Remove All The Pools
 
+timedatectl set-ntp true
 sudo systemctl restart chrony
+
+//And Uncomment The Following:
+log tracking measurements statistics
 
 //Check If It's Working
 
