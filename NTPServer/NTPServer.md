@@ -20,6 +20,12 @@ allow 192.168.1.0/24 // example
 timedatectl set-ntp true
 sudo systemctl restart chrony
 
+//TroubleShoot
+
+ss -ulnp  // Look for port 123  
+chronyc sources -v
+chronyc clients -v
+
 ```
 
 ```
