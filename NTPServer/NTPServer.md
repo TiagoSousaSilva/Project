@@ -42,15 +42,10 @@ sudo nano /etc/chrony/chrony.conf
 
 //Add The Following To The End Of The File:
 
-server 192.168.1.1 // Server IP
+server 10.0.0.13 // Server IP
 server master iburst
 
-//And Remove All The Pools
-
-timedatectl set-ntp true
-sudo systemctl restart chrony
-
-//And Uncomment The Following:
+//Remove All The Pools And Uncomment The Following:
 
 log tracking measurements statistics
 
@@ -60,6 +55,10 @@ log tracking measurements statistics
 #sourcedir /run/chrony-dhcp
 #sourcedir /etc/chrony/sources.d
 #leapsectz right/UTC
+
+
+timedatectl set-ntp true
+sudo systemctl restart chrony
 
 
 //Check If It's Working
