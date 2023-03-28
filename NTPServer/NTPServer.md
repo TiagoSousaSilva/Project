@@ -27,6 +27,7 @@ server ubuntu-ntp-server  // Or the NTP Server IP
 sudo systemctl restart ntp
 
 //Check If It's Working
+
 ntpq -p 
 
      remote           refid      st t when poll reach   delay   offset  jitter
