@@ -45,7 +45,16 @@ timedatectl set-ntp true
 sudo systemctl restart chrony
 
 //And Uncomment The Following:
+
 log tracking measurements statistics
+
+// Comment The Following:
+
+#confdir /etc/chrony/conf.d
+#sourcedir /run/chrony-dhcp
+#sourcedir /etc/chrony/sources.d
+#leapsectz right/UTC
+
 
 //Check If It's Working
 
