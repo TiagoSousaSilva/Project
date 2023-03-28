@@ -1,5 +1,5 @@
 ```
-#Ubuntu Server In AWS
+## Ubuntu Server In AWS
 
 sudo systemctl stop ntp
 sudo apt-get remove ntp
@@ -23,7 +23,7 @@ sudo systemctl restart chrony
 ```
 
 ```
-#Ubuntu Client In AWS
+## Ubuntu Client In AWS
 
 sudo systemctl stop ntp
 sudo apt-get remove ntp
