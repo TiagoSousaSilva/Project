@@ -1,4 +1,4 @@
-##MIB
+#MIB
 
 ```
 //Verify If Its Installed
@@ -11,7 +11,7 @@ sudo apt-get install libsnmp-base
 
 sudo apt upgrade
 ```
-##SNMP
+#SNMP
 ```
 #SNMP Server/Client Configuration
 
