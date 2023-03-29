@@ -48,6 +48,6 @@ sudo nano /etc/snmp/snmpd.conf
 
 agentAddress udp:161
 
-rocommunity public 10.0.0.13
+rocommunity public 10.0.0.13 //Tag the other rocommunities
 
 sudo service snmpd restart
