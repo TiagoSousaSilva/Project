@@ -10,6 +10,10 @@ sudo apt-get install libsnmp-base
 //If It Is:
 
 sudo apt upgrade
+
+// How to add devices:
+
+
 ```
 #SNMP
 ```
