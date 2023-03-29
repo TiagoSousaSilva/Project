@@ -17,7 +17,6 @@ Public IP of the Client and community is the password selected in the snmp.conf 
 ```
 ![MIB.png](MIB.png)
 
-#SNMP
 ```
 #MIB Installation
 
@@ -32,9 +31,10 @@ sudo /[Folder] // To install
 // Enter the /bin folder and run the ./MibBrower.sh command
 
 remnux@remnux:~/ManageEngine/ManageEngine_Free_Tools/MibBrowser_Free_Tool/bin$ ./MibBrowser.sh
+```
 
-
-
+#SNMP
+```
 #SNMP Server/Client Configuration
 
 //In the Server Terminal
