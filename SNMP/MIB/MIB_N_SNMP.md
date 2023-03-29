@@ -12,6 +12,8 @@ sudo apt-get install libsnmp-base
 sudo apt upgrade
 
 // How to add devices:
+
+Public IP of the Client and community is the password selected in the snmp.conf
 ```
 ![MIB.png](MIB.png)
 
