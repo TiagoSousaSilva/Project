@@ -13,7 +13,7 @@ sudo apt upgrade
 
 // How to add devices:
 
-!.[MIB.png](MIB.png)
+!.[MIB.png].(MIB.png)
 
 
 ```
