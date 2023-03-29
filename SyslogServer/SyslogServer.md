@@ -32,4 +32,4 @@ systemctl restart rsyslog
 
 In EventLog analyzer website go to: 
 
-Settings -> Windows Devices -> Add Device(s) -> Input the Windows Private IP
+Settings -> Devices -> Windows Devices -> Add Device(s) -> Input the Windows Private IP
