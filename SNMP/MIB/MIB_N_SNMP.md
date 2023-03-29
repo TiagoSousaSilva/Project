@@ -13,6 +13,8 @@ sudo apt upgrade
 
 // How to add devices:
 
+![MIB.png](MIB.png)
+
 
 ```
 #SNMP
