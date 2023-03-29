@@ -70,5 +70,7 @@ agentAddress udp:161
 
 rocommunity public 10.0.0.13 //Tag the other rocommunities
 
+*.info@10.0.0.13 //add this in the Onion Server
+
 sudo service snmpd restart
 
