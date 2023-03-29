@@ -38,3 +38,16 @@ sudo service snmpd status
 ```
 # SNMP Client Configuration
 
+sudo apt install snmpd snmp libsnmp-dev
+
+sudo cp /etc/snmp/snmpd.conf /etc/snmp/snmpd.conf.bak
+
+sudo nano /etc/snmp/snmpd.conf
+
+//Change the following:
+
+agentAddress udp:161
+
+rocommunity public 10.0.0.13
+
+sudo service snmpd restart
