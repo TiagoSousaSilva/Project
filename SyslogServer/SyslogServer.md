@@ -20,6 +20,8 @@ service eventloganalyzer start
 ```
 //Add linux users to EventLog
 
+sudo -s
+
 nano /etc/rsyslog.conf 
 
 *.* @10.0.0.13:514
