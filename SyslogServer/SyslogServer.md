@@ -16,3 +16,12 @@ https://www.manageengine.com/products/eventlog/on-prem-cloud-free-trial.html?utm
 
 service eventloganalyzer start 
 ```
+
+```
+//Add users to EventLog
+
+nano /etc/rsyslog.conf 
+
+*.* @10.0.0.13:514
+
+systemctl restart rsyslog
