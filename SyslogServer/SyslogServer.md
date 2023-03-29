@@ -1,53 +1,18 @@
-```
-#Syslog Server Configuration
-
-// Open Linux GUI and proceed to the following website:
-
-https://www.manageengine.com/products/mibbrowser-free-tool/download.html
-
-sudo /[Folder] // To install
-
-
-
-// Enter the /bin folder and run the ./MibBrower.sh command
-
-remnux@remnux:~/ManageEngine/ManageEngine_Free_Tools/MibBrowser_Free_Tool/bin$ ./MibBrowser.sh
-
-
-
-//In the Server Terminal
-
-sudo apt-get update
-
-sudo apt-get install snmpd
-
-sudo nano /etc/snmp/snmpd.conf
-
-
-
-//Change the following:
-
-agentAddress udp:161,udp6:[::1]:161
-
-sudo service snmpd restart
-
-sudo service snmpd status
+#SyslogServer Installation
 
 ```
+https://www.manageengine.com/products/eventlog/on-prem-cloud-free-trial.html?utm_source=manageengine&utm_medium=referral&utm_campaign=syslog-server&utm_content=ela-header
 
-```
-# SNMP Client Configuration
+//Enter terminal on GUI 
 
-sudo apt install snmpd snmp libsnmp-dev
+~/Downloads$ chmod 777 ManageEngine_EventLogAnalyzer_64bit.bin
 
-sudo cp /etc/snmp/snmpd.conf /etc/snmp/snmpd.conf.bak
+/home/remnux/Downloads# ./ManageEngine_EventLogAnalyzer_64bit.bin 
 
-sudo nano /etc/snmp/snmpd.conf
+/home/remnux/Downloads# service eventloganalyzer start
 
-//Change the following:
+//Troubleshooting: If the website doesn't work:
+//Open the 8400 port through the terminal (Default)
 
-agentAddress udp:161
-
-rocommunity public 10.0.0.13 //Tag the other rocommunities
-
-sudo service snmpd restart
+service eventloganalyzer start 
+``
