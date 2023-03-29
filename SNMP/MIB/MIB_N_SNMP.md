@@ -13,7 +13,7 @@ sudo apt upgrade
 
 // How to add devices:
 
-Public IP of the Client and community is the password selected in the snmp.conf
+Public IP of the Client and community is the password selected in the snmp.conf (public by default)
 ```
 ![MIB.png](MIB.png)
 
