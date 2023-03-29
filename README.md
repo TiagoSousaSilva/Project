@@ -1,2 +1,2 @@
 # Project
-FTPServer/SyslogServer/NTP/VPN
+FTPServer/NTP/SyslogServer/VPN
