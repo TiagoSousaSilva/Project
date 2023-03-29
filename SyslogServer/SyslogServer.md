@@ -18,10 +18,16 @@ service eventloganalyzer start
 ```
 
 ```
-//Add users to EventLog
+//Add linux users to EventLog
 
 nano /etc/rsyslog.conf 
 
 *.* @10.0.0.13:514
 
 systemctl restart rsyslog
+
+//Add Windows users to EventLog
+
+In EventLog analyzer website go to: 
+
+Settings -> Windows Devices -> Add Device(s) -> Input the Windows Private IP
