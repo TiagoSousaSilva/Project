@@ -12,11 +12,9 @@ sudo apt-get install libsnmp-base
 sudo apt upgrade
 
 // How to add devices:
-
-!.[MIB.png].(MIB.png)
-
-
 ```
+![MIB.png](MIB.png)
+
 #SNMP
 ```
 #SNMP Server/Client Configuration
