@@ -28,7 +28,7 @@ nano /etc/rsyslog.conf
 
 systemctl restart rsyslog
 
-//Add Windows users to EventLog
+//Add Windows users to EventLog - http://[PublicIP]:8400/
 
 In EventLog analyzer website go to: 
 
