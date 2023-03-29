@@ -19,7 +19,7 @@ Public IP of the Client and community is the password selected in the snmp.conf 
 
 #SNMP
 ```
-#SNMP Server/Client Configuration
+#MIB Installation
 
 // Open Linux GUI and proceed to the following website:
 
@@ -34,6 +34,8 @@ sudo /[Folder] // To install
 remnux@remnux:~/ManageEngine/ManageEngine_Free_Tools/MibBrowser_Free_Tool/bin$ ./MibBrowser.sh
 
 
+
+#SNMP Server/Client Configuration
 
 //In the Server Terminal
 
