@@ -7,7 +7,7 @@ https://www.manageengine.com/products/eventlog/on-prem-cloud-free-trial.html?utm
 
 ~/Downloads$ chmod 777 ManageEngine_EventLogAnalyzer_64bit.bin
 
-/home/remnux/Downloads# ./ManageEngine_EventLogAnalyzer_64bit.bin 
+/home/remnux/Downloads# ./ManageEngine_EventLogAnalyzer_64bit.bin  
 
 /home/remnux/Downloads# service eventloganalyzer start
 
