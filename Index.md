@@ -20,7 +20,7 @@
 
 - Verificar se já existe um MIB browser e se não instalar um MIB browser no remnux.
 - Ativar (se possível) o SNMP nas outras máquinas. 
-- Usar o MIB browser para visualizar os conteúdos das outras máquinas.
+- Usar o MIB browser para visualizar os conteúdos das outras máquinas. 
 
 
 4. 
