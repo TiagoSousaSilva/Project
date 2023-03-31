@@ -72,7 +72,7 @@ timedatectl
 System clock synchronized: yes
               NTP service: active
           RTC in local TZ: no
-          
+           
 chronyc sources
 
 MS Name/IP address         Stratum Poll Reach LastRx Last sample               
