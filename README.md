@@ -1,5 +1,5 @@
 # Project
-The "Cybersecurity" project involves configuring different services and implementing security measures on the AWS platform. The primary focus is on enhancing cybersecurity aspects across various network functionalities.
+The "Server Ensemble" project involves configuring different services and implementing security measures on the AWS platform. The primary focus is on enhancing cybersecurity aspects across various network functionalities.
 
 The project begins with setting up an insecure FTP server on the 'ftpsrv' machine. A specific user is created for accessing the FTP server, and Filezilla is used to demonstrate the server's accessibility. Additionally, the Onion server is utilized to test the system's vulnerability by attempting to discover the user and password information.
 
@@ -11,5 +11,5 @@ Furthermore, the project involves setting up a centralized Syslog server on Remn
 
 Lastly, the project involves establishing a site-to-site VPN. This secure communication channel enables encrypted data transmission and seamless connectivity between multiple locations within the network.
 
-Through the successful completion of these tasks, the "Cybersecurity" project aims to create a well-secured and efficiently configured network infrastructure within the AWS platform, demonstrating a comprehensive understanding of various network services and cybersecurity practices.
+Through the successful completion of these tasks, the "Server Ensemble" project aims to create a well-secured and efficiently configured network infrastructure within the AWS platform, demonstrating a comprehensive understanding of various network services and cybersecurity practices.
  
