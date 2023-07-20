@@ -9,7 +9,7 @@
 - Create the 'ftpsrv' machine and set up an insecure FTP server.
 - Create a user who will access the FTP server. 
 - Use Filezilla to access the server.
-- Using the Onion server, demonstrate that you can discover the user and password.
+- Using the Onion server, demonstrate that you can discover the user and password. (Achieved with Wireshark)
 
 
 2. 
